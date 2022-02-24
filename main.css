@@ -8,6 +8,18 @@ html {
     padding: 0
 }
 
+.fullscreen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.bg-video {
+  z-index: -1;
+}
+
 #overlay-toggle {
     position: absolute;
     display: none
